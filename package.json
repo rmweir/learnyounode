@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "ricky",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/rmweir.git"
+  },
+  "license": "ISC",
+  "description": "this is the readme file for npm tut",
+  "bugs": {
+    "url": "https://github.com/github.com/rmweir/issues"
+  },
+  "homepage": "https://github.com/github.com/rmweir#readme",
+  "devDependencies": {},
+  "keywords": [
+    "dsaf"
+  ],
+  "dependencies": {}
+}
