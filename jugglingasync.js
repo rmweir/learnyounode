@@ -5,9 +5,6 @@ var url1 = process.argv[2];
 var url2 = process.argv[3];
 var url3 = process.argv[4];
 
-var string1, string2, string3;
-var result = "";
-
 function callback(url, funct) {
 	var print = "";
 	http.get(url, (response) =>  {
@@ -25,6 +22,7 @@ function callback(url, funct) {
 
 }
 
+// needed to tuck cb in a function here
 callback(url1, function() {
 	callback(url2, function() {
 		 callback(url3, function() {});
